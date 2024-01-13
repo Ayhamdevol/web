@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color:rgba(250, 235, 215, 0.663);
+
+}
+header {
+  background-color:rgba(250, 235, 215, 0.445);
+  width: 100%;
+  display: flex; /*يكون بصف واحد*/
+  justify-content: space-between; /*يبعد اللوقو عن الباقي*/
+  align-items: center; /*يخليه بالنص*/
+  padding: 10px 200px 10px 100px;
+  z-index: 999; /*مايغطي عليه شي*/
+}
+
+.logo {
+   text-decoration: none; /*يشيل  الخط */
+  color: #4e547e;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1.8em;
+}
+
+.navigation a {
+  color: #4e547e;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1.3em;
+  padding-left: 30px; /*تباعد مابينهم*/
+}
+.navigation a:hover {
+  color: #a21c1c;
+}
+
+
+
+.main {
+  width: 100%;
+  min-height: 100vh;
+  padding-top: 80px;
+padding-bottom: 50px;
+text-align: center;
+background-color:rgba(250, 235, 215, 0.445);
+z-index: 999;
+}
+.main h4 {
+   border-bottom: 1px solid black; /*تقوم بعمل حدود او خط تحت العنصر */
+padding-bottom: 50px; 
+}
+
+.imgbakc {
+width: 90%;
+height: 60%;
+margin: auto;
+background-image: url(IMG-20231211-WA0013.jpg) ;
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-position: center ;
+background-size: cover;
+}
+h2,h4 {
+  display: flex;
+  justify-content: center;
+  color: #4e547e;
+  font-size: 1.5em;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.main h3 {
+ 
+  color: #4e547e;
+  font-size: 60px;
+  font-weight: 600;
+  letter-spacing: 1px; /*مسافة بين الحروف*/
+  padding: 50px 0; 
+  text-align: center;
+}
+
+
+.title{
+ text-align: center;    /* تقوم بوضع النص في الوسط */
+  color: #4e547e;
+  font-size: 60px;
+  font-weight: 600;
+  margin-bottom: 30px;
+  padding-top: 50px;
+}
+.dountsr {
+  display: flex; /* كون بصف واحد*/
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color:rgba(250, 235, 215, 0.445);
+
+}
+.cards {
+  width: 100%;
+  height: 100vh;
+  background-color:rgba(250, 235, 215, 0.445);
+}
+.card {
+background-color: #fff;
+display: flex;
+  width: 100%;
+
+  padding: 25px;
+  margin: 15px ;
+  background-color:rgba(250, 235, 215, 0.445);
+
+}
+
+.dount {
+  width: 23%;
+  height: 18%;
+  box-shadow: 0 5px 25px rgba(1 1 1 / 15%); /*تقوم بعمل ظل للعنصر*/
+  border-radius: 10px;
+  transition: 0.7s ease;
+margin: 25px;
+text-align: center; /*يخليه بالنص*/
+
+}
+.dount:hover {
+  transform: scale(1.1);
+}
+.dount img{
+  width: 100%;
+
+}
+.dount h3 {
+  color: #33363b;
+  font-size: 1em;
+  font-weight: 400;
+  margin: 10px;
+}
+.card2 {
+  width: 100%; 
+  height: 100vh;
+  background-color:rgba(250, 235, 215, 0.445);
+  border-bottom: 1px solid black; /*تقوم بعمل حدود او خط تحت العنصر */
+
+}
+.card2 h1 {
+  font-size: 60px;
+  text-align: center;
+  padding-top: 100px;
+  color: #4e547e;
+}
+.card2 .w1 {
+  display: flex; /*كون بصف واحد*/
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 150px;
+}
+.card2 .hg {
+  text-align: center; /*يخليه بالنص*/
+  font-size: 25px; 
+  color: #4e547e;
+  margin-left: 100px;
+}
+ .list {
+  width: 100%; 
+  height: 100%;
+  background-color:rgba(250, 235, 215, 0.445);
+
+  }
+  .list ul {
+    list-style-type: none; /*  تقوم بحذف النقاط التي على القائمة*/
+    width: 60%;
+    height: 60%;
+    margin: auto;
+    text-align: center; /*خليه بالنص*/
+    padding-top: 100px;
+    line-height: 2; /*يعمل مسافة بين الاسطر*/
+
+  }
+  ul .one {
+    font-size: 40px;
+    color: #4e547e;
+    padding-top: 100px;
+    padding-bottom: 30px;
+  }
+  ul li {
+    font-size: 20px;
+    font-weight: 400;
+  }
+  ul a {
+    padding: 10px 30px;
+    text-decoration: none; 
+    background-color: #4e547e;
+    color: #fff;
+    margin-top: 50px;
+    display: inline-block;
+    border-radius: 25px;
+  }
+
+  /* قسم عنا */
+
+  #ab {
+    width: 100%;
+    height: 100%;
+    padding-top: 150px;
+    background-color:rgba(250, 235, 215, 0.445);
+color: #4e547e;
+display: flex;
+
+  }
+  #ab .prgh {
+    width: 50%;
+    padding: 20px 150px;
+  }
+  .prgh h2 {
+    font-size: 60px;
+    font-weight: 700;
+    padding: 30px 150px 30px 0;
+    text-transform: capitalize;  /*تقوم بتحويل اول حرف للكلمة بحرف كبير*/
+    width: 100%;
+  }
+  .prgh p {
+    font-size: 17px;
+    text-transform: capitalize;  /*تقوم بتحويل اول حرف للكلمة بحرف كبير*/
+
+  }
+  .imgab {
+    width: 50%;
+    position: relative;
+    height: 100vh;
+  }
+  .imgab img {
+    width: 50%;
+margin-left: 15%;
+margin-top: 8%;
+  }
+  .imgab #im {
+    width: 30%;
+    height: 40%;
+    position: absolute;
+    right: 160px;
+    top: -100px;
+  }
+  #cn {
+    width: 100%;
+    height: 100hv; 
+    padding-top: 150px;
+  }
+  #cn h1 {
+    width: 100%;
+    text-align: center; /*خليه بالنص*/
+    font-size: 60px; /* تعمل حجم للخط*/
+    color: #4e547e;
+  }
+  #cn p {
+    text-align: center; /*خليه بالنص*/
+    color: #4e547e;
+font-weight: 600;
+padding-top: 20px;
+  }
+  form {
+    width: 50%;
+    height: 100vh;
+
+    margin: auto;
+    margin-top: 100px;
+  }
+  form div {
+    width: 60% ;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  form div input , textarea {
+    width: 100%;
+    height: 50px;
+    outline: none;
+    border: 1px solid #33363b;
+    border-radius: 5px;
+    background-color:rgb(250, 246, 215);
+    padding-left: 20px;
+
+  }
+  form .button {
+    width: 200px;
+    height: 40px;
+    background-color: #4e547e;
+    margin: 80px 0 0 270px;
+    border: none;
+    border-radius: 20px;
+    color: rgb(250, 246, 215);
+    font-weight: 700;
+
+  }
+  form label {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    color: #4e547e;
+  }
